@@ -272,12 +272,13 @@
           data-line-color="#f9e8b2"
         ></canvas>
       </section>
-
       <!-- / breadcrumbs -->
       <!-- main container -->
       <div id="main" class="site-main">
         <div class="page_content">
+          <!-- pattern container / -->
           <div class="left-pattern pattern pattern-2"></div>
+          <!-- main content -->
           <main>
             <div class="grid_row clearfix">
               <div class="grid_col grid_col_12">
@@ -470,15 +471,150 @@
                         </a>
                       </div>
                     </figure>
+                  
+
+
+                      <br style="clear: both" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </main>
+          <!-- / main content -->
+          <!-- pattern container / -->
+          <div class="right-pattern pattern pattern-2"></div>
+          <!-- footer image container / -->
+          <div class="footer_image"></div>
         </div>
+        <!-- svg filter -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          width="0"
+          style="display: none"
+        >
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="6"
+                result="blur"
+              />
+              <feColorMatrix
+                in="blur"
+                type="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                result="goo"
+              />
+              <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+          </defs>
+        </svg>
+        <!-- / svg filter -->
       </div>
-      <!-- / main container -->
+      <!-- #main -->
+      <!-- footer -->
+      <div class="footer_wrapper_copyright">
+        <!-- canvas -->
+     
+        <!-- copyright -->
+        <div class="copyrights_area">
+          <div class="half_sin_wrapper">
+            <canvas
+              class="footer_half_sin"
+              data-bg-color="14,64,77"
+              data-line-color="14,64,77"
+            ></canvas>
+          </div>
+          <div class="container">
+            <div class="copyrights_container">
+              <div class="copyrights">
+                Copyrights ©2024: Kiddy - by MSK
+              </div>
+              <div class="copyrights_panel">
+                <div class="copyrights_panel_wrapper">
+                 
+                  </div>
+                  <div class="cws_social_links">
+                    <a
+                      href="http://twitter.com/"
+                      class="cws_social_link"
+                      title="Twitter"
+                      ><i class="share-icon fa fa-twitter"></i></a
+                    ><a
+                      href="http://facebook.com"
+                      class="cws_social_link"
+                      title="Facebook"
+                      ><i class="share-icon fa fa-facebook"></i></a
+                    ><a
+                      href="http://dribbble.com"
+                      class="cws_social_link"
+                      title="Dribbble"
+                      ><i class="share-icon fa fa-dribbble"></i></a
+                    ><a
+                      href="https://plus.google.com/"
+                      class="cws_social_link"
+                      title="Google"
+                      ><i class="share-icon fa fa-google-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / copyright -->
+      </div>
     </div>
+    <!-- #page -->
+    <div class="scroll_top animated"></div>
+    <div id="lang_sel_footer">
+      <ul>
+        <li>
+          <a href="portfolio-gallery.html" class="lang_sel_sel"
+            ><img
+              src="img/en.png"
+              alt="English"
+              class="iclflag"
+              title="English"
+            />&nbsp;English</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="img/fr.png"
+              alt="Français"
+              class="iclflag"
+              title="Français"
+            />&nbsp;Français</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="img/de.png"
+              alt="Deutsch"
+              class="iclflag"
+              title="Deutsch"
+            />&nbsp;Deutsch</a
+          >
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="js/retina_1.3.0.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/select2.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jquery.form.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.js"></script>
   </body>
 </html>
 
